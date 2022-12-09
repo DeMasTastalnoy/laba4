@@ -17,7 +17,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     int startindex;
     int count;
-    const unsigned short size = 100;
+    const unsigned short int size = 100;
     char* exp = new char[size];
     cin >> exp >> startindex >> count;
     while (startindex > size || count > (size - startindex))
